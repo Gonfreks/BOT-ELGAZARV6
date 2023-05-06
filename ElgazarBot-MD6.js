@@ -7252,19 +7252,8 @@ sourceUrl: "https://telegra.ph/file/25ac27774c8a0420e2649.jpg"
 }
 ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-            break
-case 'غون':
-if (!text) return m.reply(`موجود ياحب`)
-break
-
-case '🗿':
-if (!text) return m.reply(`وجهك مسطح😹`)
-break
-
-case '🐦':
-if (!text) return m.reply(`انظر بعيد🐦`)
-break
-
+            break  
+            
 case 'quotes':
 const quotexeony = await axios.get(`https://favqs.com/api/qotd`)
         const textquotes = `*${themeemoji} Quote:* ${quotexeony.data.quote.body}\n\n*${themeemoji} Author:* ${quotexeony.data.quote.author}`
