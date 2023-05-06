@@ -692,7 +692,7 @@ ElgazarBot.sendMessage(from, {text:`\`\`\`「 منع الروابط 」\`\`\`\n\
  
  
  
-تمت البرمجه بواسطه: ELGAZAR ALWAZER`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
+تمت البرمجه بواسطه: THOMAS SHELBY`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
 
@@ -6946,7 +6946,7 @@ case 'الغباء': {
             }
             break
 case 'بوت': {
-            	let lowq = `*البوت متصل حاليا بلاش ازعاج:*\n*${runtime(process.uptime())}*`
+            	let lowq = `*انا متصل يعم متصدعناش🤺:*\n*${runtime(process.uptime())}*`
                 let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'الاوامر' }, type: 1 }]
                 await ElgazarBot.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
@@ -7176,17 +7176,10 @@ case 'السورس': case 'script': {
 teks = `⋆ تم تطوير وبرمجه هذا السورس •
 ⋆ بواسطه حسين علي •
 ⋆ يمكنك التواصل مع المبرمج عبر الواتساب ⤌⤈
-https://wa.me/+201146121794
+ https://api.whatsapp.com/send?phone=+201146121794`
 تبعني عبر اليوتيوب ⤌⤈
 https://youtube.com/@MR_ThomasFF
-واشترك وفعل الجرس وانتظر كل م هو جديد..🌍🔥`
-(اليك افضل 3جروبات لصنع البوت) 
-¦السينسي رايزل☜ https://chat.whatsapp.com/Fld2cn1jPaT6yAyPa1jjv2
-
-¦السينسي أل☜ https://chat.whatsapp.com/EwCh9XrjxmY68GeO8oVmMp
-
-¦السينسي لايت☜ https://chat.whatsapp.com/JTpMOr8MIVFJkdYHbuk1En
-|ꔹ━━the end━━━ꔹ|
+واشترك وفعل الجرس وانتظر شروحات للبرمجه..🌍🔥`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
 ]
@@ -7218,17 +7211,10 @@ teks = `• مرحبا ياروحي ⤌⤈
 • تم تطويري وبرمجتي •
 • بواسطه حسين علي •
 • اذا كنت تريد صنع بوت مماثل لهذا •
-يجب عليك الانظمام لهذه الجروبات
- (اليك افضل 3جروبات لصنع البوت) 
-¦السينسي رايزل☜ https://chat.whatsapp.com/Fld2cn1jPaT6yAyPa1jjv2
-
-¦السينسي أل☜ https://chat.whatsapp.com/EwCh9XrjxmY68GeO8oVmMp
-
-¦السينسي لايت☜ https://chat.whatsapp.com/JTpMOr8MIVFJkdYHbuk1En
-
-قناة المطور توماس•
-https://youtube.com/@MR_ThomasFF
-
+يجب عليك الانظمام لهذه القناه وسماع الشروحات لتنصيب بوت وتس مثل هذا البوت
+ 
+قناة برمجه غون للشروحات
+https://youtube.com/@ABDALLAH_MOHAMEDhttps://youtube.com/@MR_ThomasFF
 لينك شاتي 
 https://api.whatsapp.com/send?phone=+201146121794`
 let buttons = [
@@ -7252,8 +7238,8 @@ sourceUrl: "https://telegra.ph/file/25ac27774c8a0420e2649.jpg"
 }
 ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-            break  
-            
+            break
+                        
 case 'quotes':
 const quotexeony = await axios.get(`https://favqs.com/api/qotd`)
         const textquotes = `*${themeemoji} Quote:* ${quotexeony.data.quote.body}\n\n*${themeemoji} Author:* ${quotexeony.data.quote.author}`
@@ -9256,6 +9242,11 @@ teks = `•╗ مرحبا ياعزيزي ⤌⤈
 .المميزات ☞ لعرض مميزات البوت
 .المطور ☞ لعرض مطور البوت
 .السورس ☞ لعرض المبرمج`
+•╣ جروبات الدعم لصنع بوت مماثل
+(اليك افضل جروبين) 
+¦السينسي رايزل☜ https://chat.whatsapp.com/Fld2cn1jPaT6yAyPa1jjv2
+
+¦السينسي أل☜ https://chat.whatsapp.com/EwCh9XrjxmY68GeO8oVmMp`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
 ]
