@@ -7261,20 +7261,7 @@ break
 
 case '🐦':
 if (!text) return m.reply(`انظر بعيد🐦🔪`)
-break
-
-case 'نظرت':
-if (!text) return m.reply(`نعم كدا احسن`)
-break
-
-case 'ليش':
-if (!text) return m.reply(`مدري حتى مدري ايش دخلني🙂`)
-break
-
-case 'لا':
-if (!text) return m.reply(`اعجبتني ياصريح🤙`)
-break 
-}                        
+break                   
 case 'quotes':
 const quotexeony = await axios.get(`https://favqs.com/api/qotd`)
         const textquotes = `*${themeemoji} Quote:* ${quotexeony.data.quote.body}\n\n*${themeemoji} Author:* ${quotexeony.data.quote.author}`
