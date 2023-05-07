@@ -7239,29 +7239,7 @@ sourceUrl: "https://telegra.ph/file/6b33f086059501b09a20d.jpg"
 ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
             break
-case 'غون':
-if (!text) return m.reply(`نعم موجود`)
-break
-
-case 'نعم':
-if (!text) return m.reply(`نعمين والله🌝`)
-break
-
-case 'يب':
-if (!text) return m.reply(`🐦🔪`)
-break
-
-case 'سلام':
-if (!text) return m.reply(`سلامات`)
-break
-
-case '🗿':
-if (!text) return m.reply(`وجهك مسطح😹`)
-break
-
-case '🐦':
-if (!text) return m.reply(`انظر بعيد🐦🔪`)
-break                   
+                  
 case 'quotes':
 const quotexeony = await axios.get(`https://favqs.com/api/qotd`)
         const textquotes = `*${themeemoji} Quote:* ${quotexeony.data.quote.body}\n\n*${themeemoji} Author:* ${quotexeony.data.quote.author}`
